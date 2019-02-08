@@ -1,6 +1,6 @@
 <?php
 
-require 'Main.php';
+require 'Mainn.php';
 
 class Home extends Main {
 	
