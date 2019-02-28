@@ -1,7 +1,5 @@
 <?php
 
-//include mysql;
-
 class Conexion {
 	public $host = "localhost";
 	public $port = "80";
