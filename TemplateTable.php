@@ -10,7 +10,7 @@ class Table extends Model {
 	function __construct() {
 		parent::__construct();
 		$this->table = 'Table';
-		$this->columns = ['_Columnas_'];
+		$this->columns = [_Columnas_];
 	}
 
 	public function add($values) {
