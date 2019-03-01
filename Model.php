@@ -12,7 +12,8 @@ class Model {
 	protected $columns;
 	
 	function __construct() {
-		$this->connection = new DBConnection();
+		$conexion = new Connection();
+       	        $this -> connection = $conexion ->Con();
 	}
 
 	protected function add($values) {
