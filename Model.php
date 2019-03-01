@@ -66,7 +66,7 @@ class Model {
 		$qry = "SELECT * FROM $this->table;";
 
 		# Execute
-		return $this->connection->fetch($qry);
+		return $this->connection->query($qry);
 	}
 
 	protected function find($cols, $condition) {
