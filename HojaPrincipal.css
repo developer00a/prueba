@@ -1,5 +1,6 @@
 /* HojaPrincipal.css
     LaraCode
+    Errors
  */
 body {
 
@@ -23,4 +24,14 @@ h4{
     border-style:double;
    
 }
-                
+
+.oops{
+    color: #F71B1B;
+    font-size: 80px;
+}
+      
+.NotFound{
+    display: block;
+    margin: auto;
+    padding-top: 15px;       
+}
