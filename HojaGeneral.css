@@ -1,0 +1,30 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background: #f8f9f9;
+    
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    margin-top: 20px;
+    
+    
+}
+
+.table td{
+     border: aqua 1px solid;
+     background: rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+.head{
+    background: #1BD6F7;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
